@@ -13,6 +13,11 @@ int main()
         getchar();
         getline(cin, str1);
         cout << str1;
+        cout << str1[0] << " " << str1[3];
+        cout << "Lengs " << str1 << " =" << str.size() << endl;
+        for (int i = 0; i < str.size(); ++i) {
+            cout << i << "\t" << str[i];
+        }
 
 }
 
